@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    /*Cambia la fuente de todo el texto dentro del body*/
+    margin: 10px;
+    /* Establece un margen de 10  */
+}
+
+.contenedor {
+    display: flex;
+    /* organiza los elementos dentro del contenedor, haciendo que se alineen  */
+    flex-wrap: wrap;
+    /*  Permite que los elementos se muevan a la siguiente línea si no hay suficiente espacio en una fila. */
+    justify-content: space-around;/* deja espacio de manera uniforme . */
+    padding: 20px;/* añade un espacio dentro del contenedor */
+}
+
+.tarjeta {
+    width: 300px;
+    /*   */
+    margin: 10px;
+    /*   */
+    border: 1px solid #ccc;
+    /*   */
+    padding: 20px;
+    /*   */
+    border-radius: 5px;
+    /*   */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /*   */
+}
+
+.tarjeta img {
+    width: 100%;
+    /*   */
+    height: auto;
+    /*   */
+    display: block;
+    /*   */
+    border-radius: 5px 5px 0 0;
+    /*   */
+}
+
+.tarjeta h3 {
+    margin-top: 10px;
+    /*   */
+}
+
+.tarjeta p {
+    font-size: 0.9em;
+    /*   */
+    line-height: 1.5;
+    /*   */
+}
