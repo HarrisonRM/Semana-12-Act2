@@ -16,38 +16,38 @@ body {
 
 .tarjeta {
     width: 300px;
-    /*   */
+    /* Define el ancho de cada tarjeta  */
     margin: 10px;
-    /*   */
+    /* Establece un margen de 10 píxeles en cada tarjeta  */
     border: 1px solid #ccc;
-    /*   */
+    /*  añade el borde a las tarjetas */
     padding: 20px;
-    /*   */
+    /*  Añade un espacio interior de 20 píxeles dentro de las tarjeta  */
     border-radius: 5px;
-    /*   */
+    /* Redondea las esquinas de la tarjeta   */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /*   */
+    /* Añade una sombra debajo de la tarjeta  */
 }
 
 .tarjeta img {
     width: 100%;
-    /*   */
+    /* Hace que la imagen ocupe todo el ancho de la tarjeta.  */
     height: auto;
-    /*   */
+    /*   Ajusta la altura de la imagen automáticamente */
     display: block;
-    /*   */
+    /*  Cambia el comportamiento de la imagen para que sea un bloque */
     border-radius: 5px 5px 0 0;
-    /*   */
+    /*  Redondea solo la parte superior de la imagen */
 }
 
 .tarjeta h3 {
     margin-top: 10px;
-    /*   */
+    /* Añade un espacio de 10 píxeles por encima del título  */
 }
 
 .tarjeta p {
     font-size: 0.9em;
-    /*   */
+    /*  Establece el tamaño de la fuente del texto en un 90% del tamaño de fuente base es decir mas pequeño */
     line-height: 1.5;
-    /*   */
+    /* Define el espacio entre líneas como 1.5 veces el tamaño de la fuente  */
 }
